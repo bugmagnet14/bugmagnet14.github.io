@@ -90,7 +90,7 @@
 #text-gioithieu{
     height: 200px;
     display: grid;
-    grid-template-rows: 80px 80px;
+    grid-template-rows: 80px auto;
 }
 #text-gioithieu h1{
     padding-left: 10px;
