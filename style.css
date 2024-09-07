@@ -84,7 +84,8 @@
     justify-content: space-evenly;
 }
 #pic-gioithieu img{
-    width: 200px;
+    width: 180px;
+    margin-top: 0;
     border: 4px solid #e8e8e8;
 }
 #text-gioithieu{
