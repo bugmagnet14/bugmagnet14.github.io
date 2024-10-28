@@ -57,12 +57,13 @@
     text-decoration: underline;
 }
 .nav ul li .sub-menu{
-    width: 134.11px;
+    width: 174.11px;
     position: absolute;
     display: none;
     background-color:aliceblue;
 }
 .sub-menu li{
+    width: 174.11px;
     text-align: center;
     border-bottom: 1px solid #e8e8e8;
 }
