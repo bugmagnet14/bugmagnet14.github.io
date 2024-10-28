@@ -5,10 +5,12 @@
     font-size: 20;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .container{
-    width: 960px;
+    color: white;
+    width: 1200px;
     margin: 0 auto;
-    background-color:aquamarine;
+    background-color:#212121;
 }
 .header{
     height: 50px;
