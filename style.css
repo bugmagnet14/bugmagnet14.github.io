@@ -5,9 +5,11 @@
     font-size: 20;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+    background-color: #171717;
+}
 .container{
-    color: white;
+    /* color: white; */
     width: 1200px;
     margin: 0 auto;
     background-color:#212121;
@@ -89,7 +91,7 @@
 #pic-gioithieu img{
     width: 180px;
     margin-top: 0;
-    border: 4px solid #e8e8e8;
+    border: 4px solid white;
 }
 #text-gioithieu{
     height: 200px;
@@ -97,13 +99,17 @@
     grid-template-rows: 80px auto;
 }
 #text-gioithieu h1{
+    padding-top: 0;
+    color: white;
     padding-left: 10px;
 }
 #text-gioithieu p{
+    color: white;
     padding-left: 10px;
 }
 #p{
-    border-bottom: 1px solid black;
+    border-bottom: 4px solid white;
+    height: 99px;
 }
 .footer{
     padding-top: 10px;
