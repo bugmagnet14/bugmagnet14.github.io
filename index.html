@@ -18,10 +18,10 @@
             <div class="nav">
                 <ul>
                     <li><a href="https://github.com/bugmagnet14?tab=repositories">My projects</a></li>
-                    <li><a href="https://vi.wikipedia.org/wiki/To%C3%A1n_h%E1%BB%8Dc">Math
+                    <li><a href="">Đẹp trai
                         <ul class="sub-menu">
-                            <li><a href="https://vi.wikipedia.org/wiki/S%E1%BB%91_ch%C3%ADnh_ph%C6%B0%C6%A1ng">Square number</a></li>
-                            <li><a href="https://vi.wikipedia.org/wiki/S%E1%BB%91_nguy%C3%AAn_t%E1%BB%91">Prime number</a></li>
+                            <li><a href="">Tiện ích</a></li>
+                            <li><a href="">Chưa biết điền gì</a></li>
                         </ul>
                     </a></li>
                     <li><a href="">About KimHieu</a></li>
@@ -30,13 +30,30 @@
         </div>
         <!--section-->
         <div class="section">
+            <!-- gioithieu -->
             <div class="gioithieu">
                 <div id="text-gioithieu">
                     <h1 id="h1">Welcome to Bug Magnet</h1>
-                    <p id="p">Hello, I’m Kim Hieu and this is my personal website :3</p>
+                    <p id="p">Hello, I’m Kim Hieu and this is my personal website :3 </p>
                 </div>
                 <div id="pic-gioithieu">
                     <img src="img/im_strong.jpeg" alt="loi hien thi anh ca nhan">
+                </div>
+            </div>
+            <!-- content -->
+             <div class="content">
+                <h1>Pomodoro</h1>
+                <p>Pomodoro là một phương pháp quản lý thời gian giúp bạn tập trung và cải thiện hiệu suất làm việc bằng cách chia thời gian thành các khoảng tập trung và nghỉ ngắn. Kỹ thuật này do Francesco Cirillo phát triển vào cuối những năm 1980, sử dụng một chiếc đồng hồ hẹn giờ hình quả cà chua (“pomodoro” trong tiếng Ý nghĩa là “cà chua”) để đếm ngược thời gian.</p>
+                <div class="pomodoro-timer">
+                <div class="tab">
+                    <button id="pomodoroTab" onclick="setMode('pomodoro')" class="active">Pomodoro</button>
+                    <button id="shortBreakTab" onclick="setMode('shortBreak')">Short Break</button>
+                    <button id="longBreakTab" onclick="setMode('longBreak')">Long Break</button>
+                </div>
+                <div id="timer">25:00</div>
+                    <button onclick="startTimer()">Start</button>
+                    <button onclick="stopTimer()">Stop</button>
+                    <button onclick="resetTimer()">Reset</button>
                 </div>
             </div>
         </div>
@@ -56,8 +73,9 @@
             <div class="tkgit">
                 <a href="https://github.com/bugmagnet14">bugmagnet14</a>
             </div>
-            <div class="quote"><p><i>"Tram hay khong bang tay quen"</i></p></div>
+            <div class="quote"><p><i>Website đang trong quá trình phát triển</i></p></div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
