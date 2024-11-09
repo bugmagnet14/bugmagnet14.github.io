@@ -181,3 +181,17 @@ body{
     background-color: #007bff;
     color: white;
   }
+  .content h1{
+    color: white;
+    padding-left: 10px;
+  }
+  .content p{
+    width: 808px;
+    text-align: justify;
+    color: white;
+    padding-left: 10px;
+  }
+  #timer{
+    color: red;
+    font-weight: bold;
+  }
